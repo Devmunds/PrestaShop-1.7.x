@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "f037fc4c359ba2dc1dc3af63a4e8b7ee",
+    "content-hash": "c9fb287cfb67e487724d36cf600b8273",
     "packages": [
         {
             "name": "freteclick/sdk",
