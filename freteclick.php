@@ -192,11 +192,11 @@ class Freteclick extends CarrierModule
             $this->unregisterHook('actionOrderStatusUpdate');
     }
 
+    // Load the stylesheet
     public function hookActionFrontControllerSetMedia()
     {
-        $this->context->controller->registerStylesheet(
-            'freteclick-style',
-            $this->_path . 'views/css/front.css',
+        $this->context->controller->addCSS(
+            $this->_path.'views/css/front.css',
             [
                 'media'    => 'all',
                 'priority' => 1000,
